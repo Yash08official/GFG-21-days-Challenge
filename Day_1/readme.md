@@ -24,8 +24,26 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= no. of nodes <= 105
 
- ## Solution : 
+## Solution :
+
 ```java
+
+class Solution {
+    /* Should return data of middle node. If linked list is empty, then  -1*/
+    getMiddle(node) {
+        let slow = head;
+        let fast = head;
+        while(fast !== null && fast.next !== null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow.data;
+    }
+}
+```
+
+## JavaScript
+```javaScript
 
 class Solution {
     /* Should return data of middle node. If linked list is empty, then  -1*/
