@@ -70,7 +70,7 @@ class Solution {
 
 ## Solution : Java
 
-```
+```java
 class Solution {
     int getMinDiff(int[] arr, int k) {
         Arrays.sort(arr);
