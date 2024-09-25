@@ -15,9 +15,9 @@ For 21 days, I'll be solving the **Problem of the Day (POTD)** from GeeksforGeek
 ## 📁 Repository Structure
 
 ```bash
-├── Java/            # Contains solutions written in Java
-├── JavaScript/      # Contains solutions written in JavaScript
-└── README.md        # This file with details of the repository
+├── sol.java            # Contains solutions written in Java
+├── sol.js              # Contains solutions written in JavaScript
+└── README.md           # This file with details of the repository
 ```
 
 ## How to Use
